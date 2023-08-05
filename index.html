@@ -104,30 +104,40 @@
           />
         </div>
       </div>
-      <h2>Contacta conmigo</h2>
-      <form method="post" action="#">
-        <fieldset>
-          <label>Nombre:<input type="text" id="name" name="nombre" /></label>
-          <br />
-          <br />
-          <label
-            >Asunto:
-            <select id="asunto" name="asunto">
-              <option value="">Selecciona una opción</option>
-              <option value="1">Consulta</option>
-              <option value="2">Propuesta</option>
-              <option value="3">Otro</option>
-            </select></label
-          >
-          <br />
-          <br />
-          <label
-            >Mensaje:
-            <textarea placeholder="Cuentame sobre tu consulta"></textarea>
-          </label>
-          <button type="submit">Enviar</button>
-        </fieldset>
-      </form>
+      <div class="contactBackground">
+        <h2>Contacta conmigo</h2>
+        <form method="post" action="#">
+          <fieldset>
+            <label
+              >Nombre: <br /><input type="text" id="name" name="nombre"
+            /></label>
+            <br />
+            <br />
+            <label
+              >Asunto:
+              <br />
+              <select id="asunto" name="asunto">
+                <option value="">Selecciona una opción</option>
+                <option value="1">Consulta</option>
+                <option value="2">Propuesta</option>
+                <option value="3">Otro</option>
+              </select></label
+            >
+            <br />
+            <br />
+            <label
+              >Mensaje: <br />
+              <textarea
+                placeholder="Cuentame sobre tu consulta"
+                rows="10"
+                cols="40"
+              ></textarea>
+            </label>
+            <br />
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </div>
     </main>
   </body>
 </html>
