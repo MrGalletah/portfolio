@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="headerName">
+        <img
+          src="https://pbs.twimg.com/profile_images/378800000436284331/c760d537599b867360fb3676134cd6cd_400x400.jpeg"
+          alt="Profile picture"
+          class="headerImg"
+        />
+        <h1 class="header1_txt">Martin Cabrera</h1>
+      </div>
+
+      <ul>
+        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </header>
+    <main>
+      <div id="backgroundImage">
+        <h1>Buenas!</h1>
+        <p>Estudiante de Desarrollo Web centrado en la parte Frontend</p>
+      </div>
+      <h2>Sobre mi</h2>
+      <div class="aboutMe">
+        <p>
+          Mi nombre es Martin, resido en montevideo y tengo 23 años. Desde
+          siempre me ha llamado la atención la tecnología y hace un año que
+          estudio programacion de forma autodidacta con recursos como
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >FreeCodeCamp</a
+          >
+          o
+          <a
+            href="https://www.codecademy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Codecademy</a
+          >. Tengo un excelente manejo del ingles además de ser buen trabajador
+          en equipo.
+        </p>
+        <h2>Estas son algunas de mis habilidades:</h2>
+        <div class="skills">
+          <p class="skill">HTML</p>
+          <p class="skill">CSS</p>
+          <p class="skill">JavaScript</p>
+        </div>
+      </div>
+      <div>
+        <h2>Algunos de mis proyectos</h2>
+        <div class="projects">
+          <img
+            src="https://cdn.dribbble.com/users/2011050/screenshots/16874162/media/eff51a6409bd1bf25a8d84405ac98235.jpg?resize=1000x750&vertical=center"
+            alt="Personal Projects"
+            class="projects-images"
+          />
+          <img
+            src="https://cdn.dribbble.com/users/444452/screenshots/19891622/a036057f-24e8-49b0-a793-ae2afb8fd28a_4x.png?resize=1000x750&vertical=center"
+            alt="Personal Projects"
+            class="projects-images"
+          />
+          <img
+            src="https://cdn.dribbble.com/users/1254731/screenshots/16322776/media/f5b91a7b51db002dd24afb587e3d275d.jpg?resize=1000x750&vertical=center"
+            alt="Personal Projects"
+            class="projects-images"
+          />
+        </div>
+      </div>
+      <h2>Contacta conmigo</h2>
+      <form method="post" action="#">
+        <fieldset>
+          <label>Nombre:<input type="text" id="name" name="nombre" /></label>
+          <br />
+          <br />
+          <label
+            >Asunto:
+            <select id="asunto" name="asunto">
+              <option value="">Selecciona una opción</option>
+              <option value="1">Consulta</option>
+              <option value="2">Propuesta</option>
+              <option value="3">Otro</option>
+            </select></label
+          >
+          <br />
+          <br />
+          <label
+            >Mensaje:
+            <textarea placeholder="Cuentame sobre tu consulta"></textarea>
+          </label>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

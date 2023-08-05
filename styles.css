@@ -1,0 +1,100 @@
+:root {
+  --main-white-color: #f8f8f8;
+  --main-grey-color: #717a7c;
+  --main-black-color: #00020e;
+  --main-clearblue-color: #c1e3e3;
+  --main-darkblue-color: #91b6b3;
+}
+html {
+  background-color: var(--main-white-color);
+}
+.headerImg {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+.headerName {
+  display: flex;
+  padding: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-darkblue-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  text-align: center;
+}
+
+.header1_txt {
+  margin-left: 16px;
+}
+
+li {
+  display: block;
+  float: right;
+
+  padding: 8px;
+  margin: 8px;
+}
+
+.aboutMe {
+  text-align: center;
+  width: 256px;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.skills {
+  display: flex;
+}
+.skill {
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid var(--main-darkblue-color);
+  background-color: var(--main-clearblue-color);
+  border-radius: 15%;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.projects {
+  margin-left: 64px;
+  display: flex;
+}
+
+.projects-images {
+  display: block;
+  height: 400px;
+  width: 400px;
+  padding: 32px;
+  margin: 32px;
+  border-radius: 15%;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.projects-images:hover {
+  transform: scale(1.3);
+}
+
+fieldset {
+  padding: 32px;
+  margin-left: 33%;
+  margin-right: 33%;
+  text-align: center;
+  height: 400px;
+}
+#backgroundImage {
+  color: var(--main-grey-color);
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  padding-top: 361px;
+  height: 600px;
+  width: 100%;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+}
