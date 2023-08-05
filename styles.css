@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@300;400;600;800&family=Roboto+Mono&display=swap");
+
 :root {
   --main-white-color: #f8f8f8;
   --main-grey-color: #717a7c;
@@ -50,8 +52,11 @@ li {
 
 .skills {
   display: flex;
+  justify-content: center;
 }
 .skill {
+  color: #00020e;
+  font-weight: 800;
   padding: 16px;
   margin: 16px;
   border: 1px solid var(--main-darkblue-color);
@@ -64,6 +69,8 @@ li {
   margin: 0;
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .projects-images {
@@ -100,14 +107,17 @@ fieldset {
 }
 body {
   margin: 0;
+  font-family: "REM", sans-serif;
 }
 ul {
+  padding: 0 20px;
+  margin-right: 16px;
   display: flex;
 }
 .ImageAboutMe {
   background-image: url(nose.png);
 }
-.AboutMeH2 {
+h2 {
   margin: 0;
   padding: 24px 0;
 }
@@ -116,7 +126,20 @@ ul {
 }
 .aboutMeText {
   flex: 1;
+  padding: 5%;
 }
 .aboutMeSkills {
+  padding: 5%;
   flex: 1;
+}
+
+.projectBackground {
+  background: linear-gradient(
+    90deg,
+    rgba(195, 20, 50, 1) 0%,
+    rgba(36, 11, 54, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
