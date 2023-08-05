@@ -44,12 +44,8 @@ li {
 
 .aboutMe {
   text-align: center;
-  width: 100%;
-  justify-content: center;
   margin: 0;
   display: flex;
-  margin-left: 33%;
-  margin-right: 33%;
 }
 
 .skills {
@@ -65,14 +61,15 @@ li {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .projects {
-  margin-left: 64px;
+  margin: 0;
+  flex-wrap: wrap;
   display: flex;
 }
 
 .projects-images {
   display: block;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   padding: 32px;
   margin: 32px;
   border-radius: 15%;
