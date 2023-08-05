@@ -5,9 +5,7 @@
   --main-clearblue-color: #c1e3e3;
   --main-darkblue-color: #91b6b3;
 }
-html {
-  background-color: var(--main-white-color);
-}
+
 .headerImg {
   height: 64px;
   width: 64px;
@@ -46,7 +44,10 @@ li {
 
 .aboutMe {
   text-align: center;
-  width: 256px;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  display: flex;
   margin-left: 33%;
   margin-right: 33%;
 }
@@ -93,8 +94,32 @@ fieldset {
   color: var(--main-grey-color);
   font-family: "Roboto Mono", monospace;
   font-size: 32px;
-  padding-top: 361px;
+  padding-top: 370px;
   height: 600px;
-  width: 100%;
+
+  background-size: cover;
+  background-position: center;
   background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+}
+body {
+  margin: 0;
+}
+ul {
+  display: flex;
+}
+.ImageAboutMe {
+  background-image: url(nose.png);
+}
+.AboutMeH2 {
+  margin: 0;
+  padding: 24px 0;
+}
+.colorText {
+  color: var(--main-white-color);
+}
+.aboutMeText {
+  flex: 1;
+}
+.aboutMeSkills {
+  flex: 1;
 }
