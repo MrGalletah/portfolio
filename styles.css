@@ -27,6 +27,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
+  height: 100px;
 }
 
 main {
@@ -151,4 +152,10 @@ h2 {
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
+}
+.sectionTarget {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
 }
