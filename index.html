@@ -111,12 +111,20 @@
         <form method="post" action="#">
           <fieldset>
             <label
-              >Nombre: <br /><input type="text" id="name" name="nombre" required
+              >Nombre: <br /><input
+                type="text"
+                id="name"
+                name="nombre"
+                required
             /></label>
             <br />
             <br />
             <label
-              >Correo: <br /><input type="email" id="mail" name="nombre" required
+              >Correo: <br /><input
+                type="email"
+                id="mail"
+                name="nombre"
+                required
             /></label>
             <br />
             <br />
@@ -124,7 +132,9 @@
               >Asunto:
               <br />
               <select id="asunto" name="asunto">
-                <option value="">Selecciona una opción</option>
+                <option value="" selected disabled hidden>
+                  Selecciona una opción
+                </option>
                 <option value="1">Consulta</option>
                 <option value="2">Propuesta</option>
                 <option value="3">Otro</option>
@@ -135,21 +145,25 @@
             <label
               >Mensaje: <br />
               <textarea
-                placeholder="Cuentame sobre tu consulta"
+                placeholder="Cuéntame sobre tu consulta"
                 rows="10"
                 cols="40"
+                required
               ></textarea>
             </label>
             <br />
-            <button type="submit">Enviar</button>
+            <button type="submit" id="submit">Enviar</button>
           </fieldset>
         </form>
       </div>
     </main>
     <div class="footer">
-    <footer>
-     <label> Esta página fué creada para una entrega en el curso de Jóvenes a Programar. Las imágenes utilizadas son solo ejemplos. </label>
-    </footer>
+      <footer>
+        <label>
+          Esta página fué creada para una entrega en el curso de Jóvenes a
+          Programar. Las imágenes utilizadas son solo ejemplos.
+        </label>
+      </footer>
     </div>
   </body>
 </html>

@@ -95,7 +95,6 @@ fieldset {
   margin-right: 33%;
   text-align: center;
   height: 400px;
-
 }
 #backgroundImage {
   color: var(--main-grey-color);
@@ -160,16 +159,15 @@ h2 {
   top: -100px;
   visibility: hidden;
 }
-form{
+form {
   padding-bottom: 32px;
 }
-.footer{
+.footer {
   background-color: #00020e;
   height: 64px;
   text-align: center;
   padding-top: 32px;
 }
-footer label{
+footer label {
   color: #f8f8f8;
-
 }
