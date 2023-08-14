@@ -5,9 +5,16 @@ window.onload = function () {
   const name = document.getElementById("name");
 
   button.onclick = (e) => {
-    setTimeout(() => {
-      alert(`Muchas gracias por tu mensaje ${name.value}!`);
-    }, 300);
+    if(name.value.toUpperCase() === "VICTORIA" || name.value.toUpperCase() === "VIC"){
+      setTimeout(()=>{
+       alert(`Muchas gracias por tu mensaje ${name.value} ❤!`)
+      }, 300);
+    } else{
+      setTimeout(() => {
+        alert(`Muchas gracias por tu mensaje ${name.value}!`);
+      }, 300);
+    };
     e.preventDefault();
-  };
+
+    }
 };
