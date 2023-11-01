@@ -18,4 +18,5 @@ window.onload = function () {
 
     }
 };
+console.log("b")
 console.log("a")
